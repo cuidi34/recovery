@@ -1,0 +1,35 @@
+## uniform configuration. using // for explaination
+
+project_name=XX              // project name   
+lang=java
+granule=file
+
+//clustering criterion
+stop_criterion=preselected
+preselected_range = XX,XX,1  // the cluster number
+
+//path configuration
+deps_rsf_file=/xx/xx/xx      // the dep path
+src_dir      =/xx/xx/xx      // the src path
+numtopics_range= 100,100,10  // topic number
+
+//clustering configuration
+sim_measure=js
+clustering_algorithm=arc
+
+////////////////////////////////////////////////////////
+## WCA-uem Configuration
+clustering_algorithm=wca
+sim_measure=uem
+
+## WCA-uenm Configuration
+clustering_algorithm=wca
+sim_measure=uemnm
+
+## LIMBO Configuration 
+clustering_algorithm=limbo
+sim_measure=ilm
+
+## ARC Configuration
+sim_measure=js
+clustering_algorithm=arc

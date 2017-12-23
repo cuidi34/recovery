@@ -1,0 +1,5 @@
+usage:
+java -jar arcade.jar -projfile cfg/xxxxx.cfg 
+
+using arc, the path should begin with 'org'
+vector should regenerated

@@ -1,0 +1,5 @@
+1.解压Bunch-3.5.jar文件
+2.run java bunch.Bunch 出现Bunch界面，输入为.dot文件，输出文件格式可选，
+  可参考Mitchell的博士论文中的附录
+3.下载链接
+  https://www.cs.drexel.edu/~spiros/bunch/

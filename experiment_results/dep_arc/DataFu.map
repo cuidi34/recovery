@@ -1,0 +1,3 @@
+org.adrianwalker.multilinestring.JavacMultilineProcessor:build-plugin.src.main.java.org.adrianwalker.multilinestring.JavacMultilineProcessor
+org.adrianwalker.multilinestring.EcjMultilineProcessor:build-plugin.src.main.java.org.adrianwalker.multilinestring.EcjMultilineProcessor
+org.adrianwalker.multilinestring.MultilineProcessor:build-plugin.src.main.java.org.adrianwalker.multilinestring.MultilineProcessor
