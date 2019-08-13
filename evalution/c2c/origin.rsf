@@ -1,0 +1,1006 @@
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ExpandProperties
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.StripLineBreaks
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ClassConstants
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.SortFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TabsToSpaces
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.UniqFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.SuffixLines
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.LineContainsRegExp
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.BaseFilterReader
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.EscapeUnicode
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.HeadFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ChainableReader
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ConcatFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.LineContains
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.PrefixLines
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.StripJavaComments
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.BaseParamFilterReader
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.StripLineComments
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ReplaceTokens
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TailFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.StringInputStream
+contain org.apache.tools.ant.taskdefs.optional.sound org.apache.tools.ant.taskdefs.optional.sound.AntSoundPlayer
+contain org.apache.tools.ant.taskdefs.optional.sound org.apache.tools.ant.taskdefs.optional.sound.SoundTask
+contain org.apache.tools.ant.util.optional org.apache.tools.ant.util.optional.ScriptRunner
+contain org.apache.tools.ant.util.optional org.apache.tools.ant.util.optional.JavaxScriptRunner
+contain org.apache.tools.ant.util.optional org.apache.tools.ant.util.optional.NoExitSecurityManager
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckout
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMCreateTask
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMCheck
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.Continuus
+contain org.apache.tools.ant.taskdefs.optional.ccm org.apache.tools.ant.taskdefs.optional.ccm.CCMReconfigure
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckin
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMkelem
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.ClearCase
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMkdir
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMklbtype
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCUpdate
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCRmtype
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCUnCheckout
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCUnlock
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCMklabel
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout
+contain org.apache.tools.ant.taskdefs.optional.clearcase org.apache.tools.ant.taskdefs.optional.clearcase.CCLock
+contain org.apache.tools.ant.util org.apache.tools.ant.util.SymbolicLinkUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.RetryHandler
+contain org.apache.tools.ant.util org.apache.tools.ant.util.MergingMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.SplitClassLoader
+contain org.apache.tools.ant.util org.apache.tools.ant.util.VectorSet
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ClasspathUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ScriptRunnerBase
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LoaderUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ProxySetup
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ScriptRunnerCreator
+contain org.apache.tools.ant.util org.apache.tools.ant.util.StringUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ScriptFixBSFPath
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ScriptRunnerHelper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.Tokenizer
+contain org.apache.tools.ant.util org.apache.tools.ant.util.FileTokenizer
+contain org.apache.tools.ant.util org.apache.tools.ant.util.UnicodeUtil
+contain org.apache.tools.ant.util org.apache.tools.ant.util.StringTokenizer
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LineTokenizer
+contain org.apache.tools.ant.util org.apache.tools.ant.util.UUEncoder
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LayoutPreservingProperties
+contain org.apache.tools.ant.util org.apache.tools.ant.util.DateUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ReflectWrapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ReflectUtil
+contain org.apache.tools.ant.util org.apache.tools.ant.util.KeepAliveInputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ScriptRunner
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ChainedMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ContainerMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.DOMElementWriter
+contain org.apache.tools.ant.util org.apache.tools.ant.util.IdentityMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.CompositeMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.FirstMatchMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.XMLFragment
+contain org.apache.tools.ant.util org.apache.tools.ant.util.DOMUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.JAXPUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.Base64Converter
+contain org.apache.tools.ant.util org.apache.tools.ant.util.XmlConstants
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ConcatFileInputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LazyFileOutputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.OutputStreamFunneler
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LeadPipeInputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LineOrientedOutputStreamRedirector
+contain org.apache.tools.ant.util org.apache.tools.ant.util.SourceFileScanner
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LineOrientedOutputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.TeeOutputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.KeepAliveOutputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.DeweyDecimal
+contain org.apache.tools.ant.util org.apache.tools.ant.util.CollectionUtils
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LinkedHashtable
+contain org.apache.tools.ant.util org.apache.tools.ant.util.IdentityStack
+contain org.apache.tools.ant.util org.apache.tools.ant.util.WorkerAnt
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ReaderInputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ConcatResourceInputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.PropertyOutputStream
+contain org.apache.tools.ant.util org.apache.tools.ant.util.PackageNameMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.UnPackageNameMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.GlobPatternMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.RegexpPatternMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.FileNameMapper
+contain org.apache.tools.ant.util org.apache.tools.ant.util.FlatFileNameMapper
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.VmsCommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.PerlScriptCommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.OS2CommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.ScriptCommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.Java13CommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.WinNTCommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.CommandLauncher
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.CommandLauncherProxy
+contain org.apache.tools.ant.taskdefs.launcher org.apache.tools.ant.taskdefs.launcher.MacCommandLauncher
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector.CacheName
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector.AlgorithmName
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector.ComparatorName
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.EjbJar
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.JbossDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.WeblogicTOPLinkDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbcTask
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient
+contain org.apache.tools.ant.types.resolver org.apache.tools.ant.types.resolver.ApacheCatalogResolver
+contain org.apache.tools.ant.types.resolver org.apache.tools.ant.types.resolver.ApacheCatalog
+contain org.apache.tools.ant.taskdefs.optional.testing org.apache.tools.ant.taskdefs.optional.testing.Funtest.NestedCondition
+contain org.apache.tools.ant.util org.apache.tools.ant.util.ClasspathUtils.Delegate
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LayoutPreservingProperties.LogicalLine
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LayoutPreservingProperties.Pair
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LayoutPreservingProperties.Comment
+contain org.apache.tools.ant.util org.apache.tools.ant.util.LayoutPreservingProperties.Blank
+contain org.apache.tools.ant.util org.apache.tools.ant.util.DOMElementWriter.XmlNamespacePolicy
+contain org.apache.tools.ant.util org.apache.tools.ant.util.XMLFragment.Child
+contain org.apache.tools.ant.util org.apache.tools.ant.util.OutputStreamFunneler.Funnel
+contain org.apache.tools.ant.util org.apache.tools.ant.util.CollectionUtils.CompoundEnumeration
+contain org.apache.tools.ant.util org.apache.tools.ant.util.CollectionUtils.EmptyEnumeration
+contain org.apache.tools.ant org.apache.tools.ant.XmlLogger.TimedElement
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.AddNestedCreator
+contain org.apache.tools.ant org.apache.tools.ant.DemuxOutputStream.BufferInfo
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.CreateNestedCreator
+contain org.apache.tools.ant org.apache.tools.ant.PropertyHelper.PropertySetter
+contain org.apache.tools.ant org.apache.tools.ant.Target.UnlessStringCondition
+contain org.apache.tools.ant org.apache.tools.ant.PropertyHelper.PropertyEvaluator
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.Creator
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.NestedCreator
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.MethodAndObject
+contain org.apache.tools.ant org.apache.tools.ant.RuntimeConfigurable.AttributeComponentInformation
+contain org.apache.tools.ant org.apache.tools.ant.RuntimeConfigurable.EnableAttributeConsumer
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper.AttributeSetter
+contain org.apache.tools.ant org.apache.tools.ant.Target.IfStringCondition
+contain org.apache.tools.ant.types.optional.depend org.apache.tools.ant.types.optional.depend.ClassfileSet.ClassRoot
+contain test test.SpecialSeq
+contain org.apache.tools.ant.input org.apache.tools.ant.input.GreedyInputHandler
+contain org.apache.tools.ant.input org.apache.tools.ant.input.InputHandler
+contain org.apache.tools.ant.input org.apache.tools.ant.input.DefaultInputHandler
+contain org.apache.tools.ant.input org.apache.tools.ant.input.InputRequest
+contain org.apache.tools.ant.input org.apache.tools.ant.input.MultipleChoiceInputRequest
+contain org.apache.tools.ant.input org.apache.tools.ant.input.PropertyFileInputHandler
+contain org.apache.tools.ant.input org.apache.tools.ant.input.SecureInputHandler
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.Granularity
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.FTPSystemType
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTask.Granularity
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTask.Action
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.LanguageCode
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner.AntFTPFile
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner.AntFTPRootFile
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner.AntFTPRootFile
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTask.FTPSystemType
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPFileProxy
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.FTPFileProxy
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner.AntFTPFile
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP.Action
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.SetProxy.ProxyAuth
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Resources.MyCollection
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Resources.MyCollection.MyIterator
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper.CachedIterator
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper.FilteringIterator
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.AbstractClasspathResource.ClassLoaderWithFlag
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.StringResource.StringResourceFilterOutputStream
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Script
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.ReplaceRegExp
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.PropertyFile
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.NetRexxC
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.RenameExtensions
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.EchoProperties
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.TraXLiaison
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.SchemaValidate
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.XMLValidateTask
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.ANTLR
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Rpm
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Native2Ascii
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Cab
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Javah
+contain org.apache.tools.ant.util.depend.bcel org.apache.tools.ant.util.depend.bcel.DependencyVisitor
+contain org.apache.tools.ant.util.depend.bcel org.apache.tools.ant.util.depend.bcel.FullAnalyzer
+contain org.apache.tools.ant.util.depend.bcel org.apache.tools.ant.util.depend.bcel.AncestorAnalyzer
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.ClassFileUtils
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.DirectoryIterator
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.JarFileIterator
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.ClassFileIterator
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.AntAnalyzer
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.ClassFile
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.Depend
+contain org.apache.tools.ant.util.facade org.apache.tools.ant.util.facade.ImplementationSpecificArgument
+contain org.apache.tools.ant.util.facade org.apache.tools.ant.util.facade.FacadeTaskHelper
+contain org.apache.tools.ant.taskdefs.optional.extension.resolvers org.apache.tools.ant.taskdefs.optional.extension.resolvers.LocationResolver
+contain org.apache.tools.ant.taskdefs.optional.extension.resolvers org.apache.tools.ant.taskdefs.optional.extension.resolvers.URLResolver
+contain org.apache.tools.ant.taskdefs.optional.extension.resolvers org.apache.tools.ant.taskdefs.optional.extension.resolvers.AntResolver
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Scale
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Ellipse
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.TransformOperation
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Draw
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.ImageOperation
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Text
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.DrawOperation
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.ColorMapper
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Rotate
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.BasicShape
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Arc
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Rectangle
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.TarResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ArchiveResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.BCFileSet
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.FailFast
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Resources
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Restrict
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Files
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Sort
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.AbstractResourceCollectionWrapper
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ZipResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.MappedResourceCollection
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.JavaConstantResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.URLResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.JavaResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.AbstractClasspathResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.URLProvider
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.MappedResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ContentTransformingResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.CompressedResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.GZipResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.BZip2Resource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ResourceDecorator
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Archives
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.BaseResourceCollectionContainer
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Last
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Intersect
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Appendable
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.LogOutputResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Difference
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Tokens
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.StringResource
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.BaseResourceCollectionWrapper
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.First
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ResourceList
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.SizeLimitCollection
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.Union
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.ImmutableResourceException
+contain org.apache.tools.ant.types.resources org.apache.tools.ant.types.resources.PropertyResource
+contain org.apache.tools.ant.launch org.apache.tools.ant.launch.AntMain
+contain org.apache.tools.ant.launch org.apache.tools.ant.launch.Locator
+contain org.apache.tools.ant.launch org.apache.tools.ant.launch.LaunchException
+contain org.apache.tools.ant.launch org.apache.tools.ant.launch.Launcher
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Gcj
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Kjc
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Javac12
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Javac13
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.JavacExternal
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Sj
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.CompilerAdapter
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Jikes
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.CompilerAdapterExtension
+contain org.apache.tools.ant.taskdefs.compilers org.apache.tools.ant.taskdefs.compilers.Jvc
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodHandleCPInfo.ReferenceKind
+contain org.apache.tools.ant.taskdefs.optional.jdepend org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask.FormatAttribute
+contain org.apache.tools.ant.types.mappers org.apache.tools.ant.types.mappers.CutDirsMapper
+contain org.apache.tools.ant.types.mappers org.apache.tools.ant.types.mappers.FilterMapper
+contain org.apache.tools.ant.taskdefs.optional.i18n org.apache.tools.ant.taskdefs.optional.i18n.Translate
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FilterSet.Filter
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Quantifier.Predicate
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FilterSet.FiltersFile
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FilterSet.OnMissing
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FileList.FileName
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Mapper.MapperType
+contain org.apache.tools.ant.types org.apache.tools.ant.types.PropertySet.PropertyRef
+contain org.apache.tools.ant.types org.apache.tools.ant.types.PropertySet.BuiltinPropertySetName
+contain org.apache.tools.ant.types org.apache.tools.ant.types.XMLCatalog.CatalogResolver
+contain org.apache.tools.ant.types org.apache.tools.ant.types.XMLCatalog.ExternalResolver
+contain org.apache.tools.ant.types org.apache.tools.ant.types.XMLCatalog.InternalResolver
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Environment.Variable
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Commandline.Marker
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Commandline.Argument
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Permissions.Permission
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Permissions.MySM
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Assertions.EnabledAssertion
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Assertions.BaseAssertion
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Assertions.DisabledAssertion
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.MailLogger.Values
+contain org.apache.tools.ant.taskdefs.optional.sound org.apache.tools.ant.taskdefs.optional.sound.SoundTask.BuildAlert
+contain org.apache.tools.tar org.apache.tools.tar.TarOutputStream
+contain org.apache.tools.tar org.apache.tools.tar.TarConstants
+contain org.apache.tools.tar org.apache.tools.tar.TarEntry
+contain org.apache.tools.tar org.apache.tools.tar.TarBuffer
+contain org.apache.tools.tar org.apache.tools.tar.TarArchiveSparseEntry
+contain org.apache.tools.tar org.apache.tools.tar.TarUtils
+contain org.apache.tools.tar org.apache.tools.tar.TarInputStream
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.CVSEntry
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.CvsUser
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.ChangeLogTask
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.CvsVersion
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.RedirectingStreamHandler
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.RCSFile
+contain org.apache.tools.ant.taskdefs.cvslib org.apache.tools.ant.taskdefs.cvslib.CvsTagDiff
+contain org.apache.tools.mail org.apache.tools.mail.MailMessage
+contain org.apache.tools.mail org.apache.tools.mail.SmtpResponseReader
+contain org.apache.tools.mail org.apache.tools.mail.MailPrintStream
+contain org.apache.tools.mail org.apache.tools.mail.ErrorInQuitException
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.WLJspc
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.JspC
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.JspMangler
+contain org.apache.tools.ant.util.depend org.apache.tools.ant.util.depend.AbstractAnalyzer
+contain org.apache.tools.ant.util.depend org.apache.tools.ant.util.depend.DependencyAnalyzer
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsLastModified.CompareMode
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.RegexpMatcherFactory
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.RegexpFactory
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.JakartaOroRegexp
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.RegexpMatcher
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.Jdk14RegexpRegexp
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.JakartaRegexpMatcher
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.JakartaRegexpRegexp
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.JakartaOroMatcher
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.RegexpUtil
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.Regexp
+contain org.apache.tools.ant.util.regexp org.apache.tools.ant.util.regexp.Jdk14RegexpMatcher
+contain org.apache.tools.ant.taskdefs.optional.jsp.compilers org.apache.tools.ant.taskdefs.optional.jsp.compilers.JspCompilerAdapter
+contain org.apache.tools.ant.taskdefs.optional.jsp.compilers org.apache.tools.ant.taskdefs.optional.jsp.compilers.DefaultJspCompilerAdapter
+contain org.apache.tools.ant.taskdefs.optional.jsp.compilers org.apache.tools.ant.taskdefs.optional.jsp.compilers.JspCompilerAdapterFactory
+contain org.apache.tools.ant.types.spi org.apache.tools.ant.types.spi.Service
+contain org.apache.tools.ant.types.spi org.apache.tools.ant.types.spi.Provider
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.ChecksumAlgorithm
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.Cache
+contain org.apache.tools.ant.types.selectors.modifiedselector org.apache.tools.ant.types.selectors.modifiedselector.Algorithm
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Size
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Content
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.FileSystem
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.ResourceComparator
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Name
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Reverse
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Exists
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Date
+contain org.apache.tools.ant.types.resources.comparators org.apache.tools.ant.types.resources.comparators.Type
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.XNewRmic
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.RmicAdapter
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.ForkingSunRmic
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.KaffeRmic
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.SunRmic
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.WLRmic
+contain org.apache.tools.ant.taskdefs.optional.splash org.apache.tools.ant.taskdefs.optional.splash.SplashScreen
+contain org.apache.tools.ant.taskdefs.optional.splash org.apache.tools.ant.taskdefs.optional.splash.SplashTask
+contain org.apache.tools.ant.taskdefs.optional.script org.apache.tools.ant.taskdefs.optional.script.ScriptDef.NestedElement
+contain org.apache.tools.ant.taskdefs.optional.script org.apache.tools.ant.taskdefs.optional.script.ScriptDef.Attribute
+contain org.apache.tools.ant.taskdefs.optional.native2ascii org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii
+contain org.apache.tools.ant.taskdefs.optional.native2ascii org.apache.tools.ant.taskdefs.optional.native2ascii.DefaultNative2Ascii
+contain org.apache.tools.ant.taskdefs.optional.native2ascii org.apache.tools.ant.taskdefs.optional.native2ascii.Native2AsciiAdapterFactory
+contain org.apache.tools.ant.taskdefs.optional.native2ascii org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii
+contain org.apache.tools.ant.taskdefs.optional.native2ascii org.apache.tools.ant.taskdefs.optional.native2ascii.Native2AsciiAdapter
+contain org.apache.tools.ant.types.optional.depend org.apache.tools.ant.types.optional.depend.ClassfileSet
+contain org.apache.tools.ant.types.optional.depend org.apache.tools.ant.types.optional.depend.DependScanner
+contain org.apache.tools.ant.taskdefs.optional.unix org.apache.tools.ant.taskdefs.optional.unix.Symlink
+contain org.apache.tools.ant.taskdefs.optional.unix org.apache.tools.ant.taskdefs.optional.unix.AbstractAccessTask
+contain org.apache.tools.ant.taskdefs.optional.unix org.apache.tools.ant.taskdefs.optional.unix.Chgrp
+contain org.apache.tools.ant.taskdefs.optional.unix org.apache.tools.ant.taskdefs.optional.unix.Chown
+contain org.apache.tools.ant.types org.apache.tools.ant.types.TarScanner
+contain org.apache.tools.ant.types org.apache.tools.ant.types.ArchiveScanner
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FileSet
+contain org.apache.tools.ant.types org.apache.tools.ant.types.TarFileSet
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Description
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Parameterizable
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Comparison
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Parameter
+contain org.apache.tools.ant.types org.apache.tools.ant.types.AntFilterReader
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Substitution
+contain org.apache.tools.ant.types org.apache.tools.ant.types.TimeComparison
+contain org.apache.tools.ant.types org.apache.tools.ant.types.RegularExpression
+contain org.apache.tools.ant.types org.apache.tools.ant.types.ZipScanner
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FileList
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FilterSet
+contain org.apache.tools.ant.types org.apache.tools.ant.types.PropertySet
+contain org.apache.tools.ant.types org.apache.tools.ant.types.DataType
+contain org.apache.tools.ant.types org.apache.tools.ant.types.DTDLocation
+contain org.apache.tools.ant.types org.apache.tools.ant.types.EnumeratedAttribute
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Mapper
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Quantifier
+contain org.apache.tools.ant.types org.apache.tools.ant.types.DirSet
+contain org.apache.tools.ant.types org.apache.tools.ant.types.FilterSetCollection
+contain org.apache.tools.ant.types org.apache.tools.ant.types.XMLCatalog
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Commandline
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Environment
+contain org.apache.tools.ant.types org.apache.tools.ant.types.LogLevel
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Permissions
+contain org.apache.tools.ant.types org.apache.tools.ant.types.Assertions
+contain org.apache.tools.ant.taskdefs.optional.jsp org.apache.tools.ant.taskdefs.optional.jsp.JspC.WebAppParameter
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSCREATE
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSLABEL
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSCP
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKIN
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSS
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSADD
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSConstants
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKOUT
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSHISTORY
+contain org.apache.tools.ant.taskdefs.optional.jdepend org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.LibFileSet
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.Extension
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.ExtraAttribute
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.Specification
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.DeweyDecimal
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.Compatibility
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.JarLibAvailableTask
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.LibraryDisplayer
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.JarLibResolveTask
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.JarLibDisplayTask
+contain org.apache.tools.ant.taskdefs.optional.extension org.apache.tools.ant.taskdefs.optional.extension.ExtensionResolver
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Type.FileDir
+contain org.apache.tools.ant.taskdefs.optional.depend org.apache.tools.ant.taskdefs.optional.depend.Depend.ClassFileInfo
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.IgnoreDependenciesExecutor
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.SingleCheckExecutor
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.DefaultExecutor
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.EmailAddress
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.MimeMailer
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.UUMailer
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.PlainMailer
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.Header
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.Mailer
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.Message
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.EmailTask
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.SimpleBigProjectLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.CommonsLoggingListener
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.Log4jListener
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.MailLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.SilentLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.BigProjectLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.TimestampedLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.AnsiColorLogger
+contain org.apache.tools.ant.listener org.apache.tools.ant.listener.ProfileLogger
+contain org.apache.tools.ant.types.optional org.apache.tools.ant.types.optional.ScriptSelector
+contain org.apache.tools.ant.types.optional org.apache.tools.ant.types.optional.ScriptCondition
+contain org.apache.tools.ant.types.optional org.apache.tools.ant.types.optional.ScriptMapper
+contain org.apache.tools.ant.types.optional org.apache.tools.ant.types.optional.AbstractScriptComponent
+contain org.apache.tools.ant.types.optional org.apache.tools.ant.types.optional.ScriptFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.ReplaceTokens.Token
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.LineContains.Contains
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.ReplaceRegex
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.ChainableReaderFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.StripLineComments.Comment
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.DeleteCharacters
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.Trim
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.IgnoreBlank
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.FileTokenizer
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.ContainsString
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.ContainsRegex
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.Filter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.ReplaceString
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.TokenFilter.StringTokenizer
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.MaskJavaTabLiteralsFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.RemoveTabFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.AddEofFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.SimpleFilterReader
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.CrLf
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.NormalizeEolFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.AddAsisRemove
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.AddTabFilter
+contain org.apache.tools.ant.filters org.apache.tools.ant.filters.FixCrLfFilter.RemoveEofFilter
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.BZip2Constants
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.CRC
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.CBZip2InputStream
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.CBZip2OutputStream
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.BlockSort
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfTrueAttribute
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.BaseIfAttribute
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfSetAttribute
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.AttributeNamespace
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.EnableAttribute
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfBlankAttribute
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.MimeMailer.StringDataSource
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.EmailTask.Encoding
+contain org.apache.tools.ant.taskdefs.email org.apache.tools.ant.taskdefs.email.MimeMailer.SimpleAuthenticator
+contain (Unnamed_Package) RemoteTimestampImpl
+contain (Unnamed_Package) RemoteTimestamp
+contain (Unnamed_Package) AntTimestamp
+contain (Unnamed_Package) A
+contain (Unnamed_Package) APrivate
+contain (Unnamed_Package) C
+contain (Unnamed_Package) D
+contain (Unnamed_Package) B
+contain (Unnamed_Package) E
+contain org.apache.tools.ant.taskdefs.optional.image org.apache.tools.ant.taskdefs.optional.image.Image
+contain org.apache.tools.ant.taskdefs.optional.testing org.apache.tools.ant.taskdefs.optional.testing.Funtest
+contain org.apache.tools.ant.taskdefs.optional.testing org.apache.tools.ant.taskdefs.optional.testing.BlockFor
+contain org.apache.tools.ant.taskdefs.optional.testing org.apache.tools.ant.taskdefs.optional.testing.BuildTimeoutException
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSSHISTORY.BriefCodediffNofile
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSS.WritableFiles
+contain org.apache.tools.ant.taskdefs.optional.vss org.apache.tools.ant.taskdefs.optional.vss.MSVSS.CurrentModUpdated
+contain (Unnamed_Package) A.Inner
+contain (Unnamed_Package) A.Inner.Inner2
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfTrueAttribute.Unless
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfSetAttribute.Unless
+contain org.apache.tools.ant.attribute org.apache.tools.ant.attribute.IfBlankAttribute.Unless
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.XMLValidateTask.Attribute
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.PropertyFile.Entry.Operation
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.EchoProperties.FormatAttribute
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.XMLValidateTask.Property
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.NetRexxC.VerboseAttr
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.EchoProperties.Tuple
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.PropertyFile.Unit
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.PropertyFile.Entry.Type
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.PropertyFile.Entry
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.NetRexxC.TraceAttr
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.SchemaValidate.SchemaLocation
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.XMLValidateTask.ValidatorErrorHandler
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Javah.ClassArgument
+contain org.apache.tools.ant.taskdefs.optional org.apache.tools.ant.taskdefs.optional.Native2Ascii.ExtMapper
+contain org.apache.tools.ant.types.optional.image org.apache.tools.ant.types.optional.image.Scale.ProportionsAttribute
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MakeUrl
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Untar
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.UpToDate
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tar
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Classloader
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.BindTargets
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Input
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DiagnosticsTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DefaultExcludes
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Recorder
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PropertyHelperTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Parallel
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Retry
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Definer
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Componentdef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DefBase
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Typedef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.AttributeNamespaceDef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.AugmentReference
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.RecorderEntry
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ImportTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PreSetDef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Local
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Exit
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.CVSPass
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Taskdef
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroInstance
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Property
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ManifestClassPath
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Sync
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Delete
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MatchingTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.LoadResource
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DependSet
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.LoadFile
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.War
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SignJar
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Ear
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Expand
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Jar
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SendEmail
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PathConvert
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.EchoXML
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Filter
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tstamp
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Touch
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SubAnt
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Available
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ManifestTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.CallTarget
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.TempFile
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.XSLTLoggerAware
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.XmlProperty
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.XSLTLiaison4
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.LogStreamHandler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Patch
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.LogOutputStream
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Exec
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.VerifyJar
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.AbstractJarSignerTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.GenerateKey
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PumpStreamHandler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Chmod
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.AbstractCvsTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Cvs
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Rmic
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Apt
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.StreamPumper
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Redirector
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.CommandLauncherTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ManifestException
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Manifest
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.BUnzip2
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.GUnzip
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.BZip2
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Unpack
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.GZip
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Pack
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.FixCRLF
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Sequential
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ConditionTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Checksum
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ResourceCount
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.WaitFor
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Echo
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Replace
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Concat
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SQLExec
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.CloseResources
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.JDBCTask
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.FailureRecorder
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnit4TestMethodAdapter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.XMLConstants
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.DOMUtil
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.Constants
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnitTest
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnitVersionHelper
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.TestIgnored
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.IgnoredTestResult
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnitResultFormatter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.IgnoredTestListener
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.Enumerations
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.TearDownOnVmCrash
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.BatchTest
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.TestListenerWrapper
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.CustomJUnit4TestAdapterCache
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.BaseTest
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.FormatterElement
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter
+contain org.apache.tools.ant.property org.apache.tools.ant.property.LocalPropertyStack
+contain org.apache.tools.ant.property org.apache.tools.ant.property.GetProperty
+contain org.apache.tools.ant.property org.apache.tools.ant.property.LocalProperties
+contain org.apache.tools.ant.property org.apache.tools.ant.property.ParseProperties
+contain org.apache.tools.ant.property org.apache.tools.ant.property.ResolvePropertyMap
+contain org.apache.tools.ant.property org.apache.tools.ant.property.NullReturn
+contain org.apache.tools.ant.property org.apache.tools.ant.property.ParseNextProperty
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.HotDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.GenericHotDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.WebLogicHotDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy
+contain org.apache.tools.ant.taskdefs.optional.j2ee org.apache.tools.ant.taskdefs.optional.j2ee.AbstractHotDeploymentTool
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.LongCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.InvokeDynamicCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodTypeCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.StringCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodHandleCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodRefCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPool
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.DoubleCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.NameAndTypeCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.ClassCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.InterfaceMethodRefCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.FieldRefCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.Utf8CPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.FloatCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.IntegerCPInfo
+contain org.apache.tools.ant.taskdefs.optional.depend.constantpool org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPoolEntry
+contain org.apache.tools.ant.taskdefs.optional.pvcs org.apache.tools.ant.taskdefs.optional.pvcs.PvcsProject
+contain org.apache.tools.ant.taskdefs.optional.pvcs org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.InstanceOf
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Compare
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Date
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.None
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Or
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.ResourceSelector
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Majority
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Not
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Exists
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Name
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Size
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.And
+contain org.apache.tools.ant.types.resources.selectors org.apache.tools.ant.types.resources.selectors.Type
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.Directory
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessage
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.AbstractSshMessage
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.ScpFromMessage
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.LogListener
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.Scp
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHExec
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.ScpFromMessageBySftp
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHBase
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessageBySftp
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHSession
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPConfigurator
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskConfig
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTP
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTask
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirror
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.MimeMail
+contain org.apache.tools.ant.taskdefs.optional.net org.apache.tools.ant.taskdefs.optional.net.SetProxy
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.TypeFound
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Matches
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsSigned
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.HasFreeSpace
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsLastModified
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.ParserSupports
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.AntVersion
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.ConditionBase
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.FilesMatch
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Xor
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Not
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Or
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Socket
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsReference
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Contains
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsSet
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.HasMethod
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsReachable
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Condition
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.ResourceExists
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsFileSelected
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsFalse
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsFailure
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Equals
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.IsTrue
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.ResourceContains
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.And
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.Http
+contain org.apache.tools.ant.taskdefs.condition org.apache.tools.ant.taskdefs.condition.ResourcesMatch
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHSession.NestedSequential
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.AbstractSshMessage.ProgressMonitor
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHSession.LocalTunnel
+contain org.apache.tools.ant.taskdefs.optional.ssh org.apache.tools.ant.taskdefs.optional.ssh.SSHSession.RemoteTunnel
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOSCheckin
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOSGet
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOSCheckout
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOSCmd
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOS
+contain org.apache.tools.ant.taskdefs.optional.sos org.apache.tools.ant.taskdefs.optional.sos.SOSLabel
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.CBZip2OutputStream.Data
+contain org.apache.tools.bzip2 org.apache.tools.bzip2.CBZip2InputStream.Data
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.FailureRecorder.TestInfos
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.JUnit4TestMethodAdapter.MultipleMethodsFilter
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.DOMUtil.NodeListImpl
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.Format
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute
+contain org.apache.tools.ant.taskdefs.optional.junit org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.DelayedFileOutputStream
+contain org.apache.tools.ant org.apache.tools.ant.UnsupportedAttributeException
+contain org.apache.tools.ant org.apache.tools.ant.Target
+contain org.apache.tools.ant org.apache.tools.ant.UnknownElement
+contain org.apache.tools.ant org.apache.tools.ant.NoBannerLogger
+contain org.apache.tools.ant org.apache.tools.ant.XmlLogger
+contain org.apache.tools.ant org.apache.tools.ant.ExtensionPoint
+contain org.apache.tools.ant org.apache.tools.ant.PropertyHelper
+contain org.apache.tools.ant org.apache.tools.ant.Diagnostics
+contain org.apache.tools.ant org.apache.tools.ant.DemuxOutputStream
+contain org.apache.tools.ant org.apache.tools.ant.MagicNames
+contain org.apache.tools.ant org.apache.tools.ant.Location
+contain org.apache.tools.ant org.apache.tools.ant.DefaultDefinitions
+contain org.apache.tools.ant org.apache.tools.ant.UnsupportedElementException
+contain org.apache.tools.ant org.apache.tools.ant.AntTypeDefinition
+contain org.apache.tools.ant org.apache.tools.ant.ComponentHelper
+contain org.apache.tools.ant org.apache.tools.ant.BuildLogger
+contain org.apache.tools.ant org.apache.tools.ant.Main
+contain org.apache.tools.ant org.apache.tools.ant.BuildEvent
+contain org.apache.tools.ant org.apache.tools.ant.DynamicConfigurator
+contain org.apache.tools.ant org.apache.tools.ant.TypeAdapter
+contain org.apache.tools.ant org.apache.tools.ant.ExitStatusException
+contain org.apache.tools.ant org.apache.tools.ant.IntrospectionHelper
+contain org.apache.tools.ant org.apache.tools.ant.BuildListener
+contain org.apache.tools.ant org.apache.tools.ant.SubBuildListener
+contain org.apache.tools.ant org.apache.tools.ant.DynamicAttribute
+contain org.apache.tools.ant org.apache.tools.ant.DemuxInputStream
+contain org.apache.tools.ant org.apache.tools.ant.RuntimeConfigurable
+contain org.apache.tools.ant org.apache.tools.ant.ArgumentProcessorRegistry
+contain org.apache.tools.ant org.apache.tools.ant.DefaultLogger
+contain org.apache.tools.ant org.apache.tools.ant.DynamicConfiguratorNS
+contain org.apache.tools.ant org.apache.tools.ant.DynamicElementNS
+contain org.apache.tools.ant org.apache.tools.ant.ExitException
+contain org.apache.tools.ant org.apache.tools.ant.Executor
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Untar.UntarCompressionMethod
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tar.TarFileSet
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tar.TarLongFileMode
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Sync.SyncTarget
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef.NestedSequential
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef.Text
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Input.Handler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef.MyAntTypeDefinition
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PropertyHelperTask.DelegateElement
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef.Attribute
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PreSetDef.PreSetDefinition
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Parallel.TaskList
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroDef.TemplateElement
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Definer.OnError
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Parallel.TaskRunnable
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Delete.ReverseDirs
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DependSet.HideMissingBasedir
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.DependSet.NonExistent
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Sync.MyCopy
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Jar.FilesetManifestConfig
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Jar.StrictMode
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Input.HandlerType
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tstamp.CustomFormat
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.EchoXML.NamespacePolicy
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Definer.Format
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PathConvert.TargetOs
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tstamp.Unit
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PathConvert.MapEntry
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Available.FileDir
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Recorder.ActionChoices
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.ManifestTask.Mode
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.MacroInstance.Element
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get.VerboseProgress
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get.NullProgress
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.AbstractCvsTask.Module
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get.GetThread
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get.Base64Converter
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Get.DownloadProgress
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.GenerateKey.DistinguishedName
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Apt.Option
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.VerifyJar.BufferingOutputFilterReader
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Redirector.PropertyOutputStream
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.PumpStreamHandler.ThreadWithPumper
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.VerifyJar.BufferingOutputFilter
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Exec.StreamPumper
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.GenerateKey.DnameParam
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Rmic.ImplementationSpecificArgument
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Manifest.Section
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Manifest.Attribute
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Tar.TarCompressionMethod
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.FixCRLF.OneLiner
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.FixCRLF.OneLiner.BufferLine
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.FixCRLF.CrLf
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.FixCRLF.AddAsisRemove
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Checksum.FormatElement
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Exit.NestedCondition
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.WaitFor.Unit
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Concat.TextElement
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Replace.NestedString
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Recorder.VerbosityLevelChoices
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Replace.Replacefilter
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Concat.MultiReader
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Replace.FileOutput
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Replace.FileInput
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SQLExec.DelimiterType
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Checksum.FileUnion
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SQLExec.OnError
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.SQLExec.Transaction
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Echo.EchoLevel
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Concat.ConcatResource
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.FileMode
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.When
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.AccumHandler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.EachHandler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.AllHandler
+contain org.apache.tools.ant.taskdefs org.apache.tools.ant.taskdefs.Length.Handler
+contain org.apache.tools.zip org.apache.tools.zip.Zip64ExtendedInformationExtraField
+contain org.apache.tools.zip org.apache.tools.zip.ZipEncoding
+contain org.apache.tools.zip org.apache.tools.zip.ZipUtil
+contain org.apache.tools.zip org.apache.tools.zip.CentralDirectoryParsingZipExtraField
+contain org.apache.tools.zip org.apache.tools.zip.ZipEightByteInteger
+contain org.apache.tools.zip org.apache.tools.zip.Simple8BitZipEncoding
+contain org.apache.tools.zip org.apache.tools.zip.NioZipEncoding
+contain org.apache.tools.zip org.apache.tools.zip.ZipConstants
+contain org.apache.tools.zip org.apache.tools.zip.ZipFile
+contain org.apache.tools.zip org.apache.tools.zip.ZipEntry
+contain org.apache.tools.zip org.apache.tools.zip.ExtraFieldUtils
+contain org.apache.tools.zip org.apache.tools.zip.Zip64Mode
+contain org.apache.tools.zip org.apache.tools.zip.UnparseableExtraFieldData
+contain org.apache.tools.zip org.apache.tools.zip.UnicodeCommentExtraField
+contain org.apache.tools.zip org.apache.tools.zip.FallbackZipEncoding
+contain org.apache.tools.zip org.apache.tools.zip.UnicodePathExtraField
+contain org.apache.tools.zip org.apache.tools.zip.ZipExtraField
+contain org.apache.tools.zip org.apache.tools.zip.Zip64RequiredException
+contain org.apache.tools.zip org.apache.tools.zip.UnsupportedZipFeatureException
+contain org.apache.tools.zip org.apache.tools.zip.ZipShort
+contain org.apache.tools.zip org.apache.tools.zip.AsiExtraField
+contain org.apache.tools.zip org.apache.tools.zip.UnixStat
+contain org.apache.tools.zip org.apache.tools.zip.ZipEncodingHelper
+contain org.apache.tools.zip org.apache.tools.zip.JarMarker
+contain org.apache.tools.zip org.apache.tools.zip.AbstractUnicodeExtraField
+contain org.apache.tools.zip org.apache.tools.zip.ZipLong
+contain org.apache.tools.zip org.apache.tools.zip.UnrecognizedExtraField
+contain org.apache.tools.zip org.apache.tools.zip.ZipOutputStream
+contain org.apache.tools.zip org.apache.tools.zip.GeneralPurposeBit
+contain org.apache.tools.zip org.apache.tools.zip.ZipEncodingHelper.SimpleEncodingHolder
+contain org.apache.tools.zip org.apache.tools.zip.ExtraFieldUtils.UnparseableExtraField
+contain org.apache.tools.zip org.apache.tools.zip.UnsupportedZipFeatureException.Feature
+contain org.apache.tools.zip org.apache.tools.zip.ZipFile.Entry
+contain org.apache.tools.zip org.apache.tools.zip.ZipOutputStream.UnicodeExtraFieldPolicy
+contain org.apache.tools.zip org.apache.tools.zip.Simple8BitZipEncoding.Simple8BitChar
+contain org.apache.tools.zip org.apache.tools.zip.ZipFile.NameAndComment
+contain org.apache.tools.zip org.apache.tools.zip.ZipOutputStream.CurrentEntry
+contain org.apache.tools.zip org.apache.tools.zip.ZipFile.OffsetEntry
+contain org.apache.tools.zip org.apache.tools.zip.ZipFile.BoundedInputStream
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.DataTypeHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.NestedElementHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.ProjectHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.TargetHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.AbstractHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.RootHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.TaskHandler
+contain org.apache.tools.ant.helper org.apache.tools.ant.helper.ProjectHelperImpl.DescriptionHandler
+contain org.apache.tools.ant.taskdefs.optional.script org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase
+contain org.apache.tools.ant.taskdefs.optional.script org.apache.tools.ant.taskdefs.optional.script.ScriptDef
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SelectorUtils
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.TokenizedPath
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.TokenizedPattern
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.ContainsRegexpSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SelectorContainer
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.ExtendSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.MappingSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.FileSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.NotSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.FilenameSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.NoneSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.BaseSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.BaseExtendSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.OrSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.MajoritySelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.DateSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SelectSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.AbstractSelectorContainer
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.TypeSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.ReadableSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.DepthSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.AndSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.PresentSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.ExtendFileSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.DifferentSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.BaseSelectorContainer
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.DependSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.WritableSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.ContainsSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SizeSelector
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SignedSelector
+contain org.apache.tools.ant.taskdefs.optional.windows org.apache.tools.ant.taskdefs.optional.windows.Attrib
+contain org.apache.tools.ant.dispatch org.apache.tools.ant.dispatch.DispatchUtils
+contain org.apache.tools.ant.dispatch org.apache.tools.ant.dispatch.Dispatchable
+contain org.apache.tools.ant.dispatch org.apache.tools.ant.dispatch.DispatchTask
+contain org.apache.tools.ant.taskdefs.rmic org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter.RmicFileNameMapper
+contain org.apache.tools.ant.filters.util org.apache.tools.ant.filters.util.ChainReaderHelper
+contain org.apache.tools.ant.taskdefs.optional.jlink org.apache.tools.ant.taskdefs.optional.jlink.JlinkTask
+contain org.apache.tools.ant.taskdefs.optional.jlink org.apache.tools.ant.taskdefs.optional.jlink.jlink
+contain org.apache.tools.ant.taskdefs.optional.jlink org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool
+contain org.apache.tools.ant.taskdefs.optional.jlink org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbcHandler
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.Config
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.NamingScheme
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.RedirectOutput
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbcException
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.CMPVersion
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DTDLocation
+contain org.apache.tools.ant.taskdefs.optional.ejb org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname
+contain org.apache.tools.ant.taskdefs.optional.javah org.apache.tools.ant.taskdefs.optional.javah.Kaffeh
+contain org.apache.tools.ant.taskdefs.optional.javah org.apache.tools.ant.taskdefs.optional.javah.SunJavah
+contain org.apache.tools.ant.taskdefs.optional.javah org.apache.tools.ant.taskdefs.optional.javah.Gcjh
+contain org.apache.tools.ant.taskdefs.optional.javah org.apache.tools.ant.taskdefs.optional.javah.JavahAdapterFactory
+contain org.apache.tools.ant.taskdefs.optional.javah org.apache.tools.ant.taskdefs.optional.javah.JavahAdapter
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SizeSelector.SizeComparisons
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.DateSelector.TimeComparisons
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.SizeSelector.ByteUnits
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.TypeSelector.FileType
+contain org.apache.tools.ant.types.selectors org.apache.tools.ant.types.selectors.PresentSelector.FilePresence
